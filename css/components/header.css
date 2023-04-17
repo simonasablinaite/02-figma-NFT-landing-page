@@ -1,0 +1,20 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 198px;
+  height: 36px;
+}
+.navigation {
+  display: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #555555;
+}

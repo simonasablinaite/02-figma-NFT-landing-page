@@ -1,0 +1,52 @@
+.footer-wrapper {
+  margin-top: 65px;
+}
+
+.socials-icon ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+  margin-bottom: 64px;
+}
+
+.footer-top-side .left-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-description {
+  margin: 32px 0;
+}
+
+.right-side {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.references-cont {
+  display: flex;
+  width: 50%;
+}
+
+.references {
+  display: flex;
+  flex-direction: column;
+}
+
+.references a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #555555;
+}
+
+.footer-bootom-side {
+  margin-top: 64px;
+  display: flex;
+}
+
+.date {
+  display: none;
+}

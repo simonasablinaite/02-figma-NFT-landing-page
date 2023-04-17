@@ -1,0 +1,32 @@
+.showcase-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  overflow: hidden;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.showcase-wrapper .card {
+  background-color: #eeeeee;
+  border-radius: 16px;
+}
+
+.card-content .bottom-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-content .right-side {
+  text-align: end;
+}
+
+.price-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.price-wrapper img {
+  margin-right: 8px;
+}
