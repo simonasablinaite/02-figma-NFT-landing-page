@@ -6,17 +6,12 @@
   }
 }
 
-@media (min-width: 576px) {
-  .container {
-    width: 540px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 @media (min-width: 768px) {
   .container {
     width: 720px;
+  }
+  .upsell .secondary-text-elements-group {
+    margin-top: 50px;
   }
 }
 
@@ -35,7 +30,16 @@
   .copyright {
     font-size: 20px;
   }
-
+  .hero-half-image {
+    display: none;
+  }
+  .hero-all-image {
+    display: flex;
+    width: 90%;
+  }
+  .upsell {
+    border-radius: 30px;
+  }
   .showcase-wrapper .subtitle,
   .showcase-wrapper .showcase-name,
   .showcase-wrapper .card-number,
@@ -52,13 +56,71 @@
   .press-wrapper .card:nth-child(4) {
     display: flex;
   }
+  .press-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 50px 0;
+  }
   .press-wrapper .card-content {
     display: flex;
+  }
+  .showcase-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: calc(100% - 160px);
+  }
+  .showcase {
+    overflow: visible;
+  }
+  .footer-upsell .section-image {
+    /* width: 206px;
+    height: 467px; */
+    width: 30%;
+  }
+  .footer-upsell .section-image img {
+    float: right;
+  }
+  .footer-upsell .hero-main-title {
+    width: 70%;
   }
   .references a {
     margin-top: 20px;
   }
   .footer-description {
     font-size: 20px;
+  }
+  .date {
+    display: flex;
+    font-size: 20px;
+  }
+  .footer-wrapper .bottom-side {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+  .hero-main-title {
+    font-size: 96px;
+    line-height: 116px;
+  }
+  .footer-wrapper .right-side {
+    display: flex;
+  }
+  .footer-top-side {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+  }
+  .footer-wrapper .right-side {
+    display: flex;
+  }
+  .showcase {
+    overflow: visible;
   }
 }
