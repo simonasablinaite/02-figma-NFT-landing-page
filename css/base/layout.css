@@ -1,2 +1,64 @@
-@media() {
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 992px;
+  }
+  .navigation {
+    display: flex;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .section-paragraph,
+  .showcase-title,
+  .copyright {
+    font-size: 20px;
+  }
+
+  .showcase-wrapper .subtitle,
+  .showcase-wrapper .showcase-name,
+  .showcase-wrapper .card-number,
+  .showcase-wrapper .price-deadline {
+    font-size: 18px;
+  }
+  .press-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 50px;
+    margin: 50px 0;
+  }
+  .press-wrapper .card:nth-child(4) {
+    display: flex;
+  }
+  .press-wrapper .card-content {
+    display: flex;
+  }
+  .references a {
+    margin-top: 20px;
+  }
+  .footer-description {
+    font-size: 20px;
+  }
 }

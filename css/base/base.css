@@ -32,6 +32,15 @@
   box-shadow: 2px 1000px 1px #fff inset;
 }
 
+.header-btn {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ff3998;
+  border: none;
+  background-color: white;
+}
+
 .btn:hover {
   box-shadow: none;
   color: white;

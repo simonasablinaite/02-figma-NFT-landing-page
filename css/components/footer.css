@@ -18,7 +18,7 @@
   margin: 32px 0;
 }
 
-.right-side {
+.footer-top-side .right-side {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
@@ -34,12 +34,16 @@
   flex-direction: column;
 }
 
+.footer-title {
+  text-transform: uppercase;
+}
 .references a {
   text-decoration: none;
   font-size: 20px;
   line-height: 20px;
   font-weight: 400;
   color: #555555;
+  margin-top: 10px;
 }
 
 .footer-bootom-side {

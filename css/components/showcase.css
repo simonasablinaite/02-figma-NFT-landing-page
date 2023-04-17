@@ -11,15 +11,16 @@
   border-radius: 16px;
 }
 
-.card-content .bottom-side {
+.showcase-wrapper .card-content .bottom-side {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
 
-.card-content .right-side {
-  text-align: end;
+.showcase-wrapper .bootom-side .right-side {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .price-wrapper {
