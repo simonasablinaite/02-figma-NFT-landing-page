@@ -68,8 +68,6 @@
   .showcase-wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: calc(100% - 160px);
   }
   .showcase {
     overflow: visible;
