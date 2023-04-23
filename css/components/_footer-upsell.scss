@@ -1,3 +1,5 @@
+@use '../base/variables';
+
 .footer-upsell {
   display: flex;
   justify-content: space-between;
@@ -5,10 +7,10 @@
 }
 
 .footer-upsell .section-main-title {
-  font-size: 56px;
+  font-size: variables.$fs-xxl;
   line-height: 68px;
-  font-weight: 900;
-  color: #111111;
+  font-weight: variables.$fw-xxl;
+  color: variables.$color-very-dark-grey;
 }
 
 .footer-upsell .section-image {

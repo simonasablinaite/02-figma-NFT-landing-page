@@ -1,7 +1,54 @@
-/* BASE */
-@import "./base/reset.css";
-@import "./base/base.css";
-/* COMPONENTS */
+body,
+body * {
+  /* margin: 0;*/
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  padding: 32px;
+}
+
+.smaller-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #ff3998;
+  margin-bottom: 24px;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  color: #111111;
+  padding: 10px 40px;
+  border-radius: 40px;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #d6191c, #e48c27);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.header-btn {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ff3998;
+  border: none;
+  background-color: white;
+}
+
+.btn:hover {
+  box-shadow: none;
+  color: white;
+}
+
 .header-wrapper {
   display: flex;
   justify-content: space-between;
@@ -40,7 +87,7 @@
   font-size: 48px;
   font-weight: 900;
   line-height: 58px;
-  color: #111111;
+  color: chartreuse;
   margin: 24px 0;
 }
 

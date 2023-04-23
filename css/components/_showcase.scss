@@ -1,13 +1,15 @@
+@use '../base/variables';
+
 .showcase-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   overflow: hidden;
-  gap: 40px;
-  margin-top: 40px;
+  gap: variables.$space-40;
+  margin-top: variables.$space-40;
 }
 
 .showcase-wrapper .card {
-  background-color: #eeeeee;
+  background-color: variables.$color-light;
   border-radius: 16px;
 }
 
@@ -15,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: variables.$space-20;
 }
 
 .showcase-wrapper .bootom-side .right-side {
@@ -29,5 +31,5 @@
 }
 
 .price-wrapper img {
-  margin-right: 8px;
+  margin-right: variables.$space-8;
 }

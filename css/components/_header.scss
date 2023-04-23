@@ -1,5 +1,4 @@
-@use '/css/base/variables';
-
+@use '../base/variables';
 
 .header-wrapper {
   display: flex;
@@ -16,9 +15,9 @@
 
 .navigation a {
   text-decoration: none;
-  font-weight: $fw-s;
-  font-size: 20px;
+  font-weight: variables.$fw-s;
+  font-size: variables.$fs-s;
   line-height: 20px;
-  color: #555555;
-  margin-right: 28px;
+  color: variables.$color-dark-grey;
+  margin-right: variables.$space-28;;
 }

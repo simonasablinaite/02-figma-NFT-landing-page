@@ -1,12 +1,12 @@
 .footer-wrapper {
-  margin-top: 65px;
+  margin-top: variables.$space-65;
 }
 
 .socials-icon ul {
   display: flex;
   list-style-type: none;
-  gap: 16px;
-  margin-bottom: 65px;
+  gap: variables.$space-16;
+  margin-bottom: variables.$space-65;
 }
 
 .footer-top-side .left-side {
@@ -15,13 +15,13 @@
 }
 
 .footer-description {
-  margin: 32px 0;
+  margin: variables.$space-32 variables.$space-0;
 }
 
 .footer-top-side .right-side {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 50px;
+  gap: variables.$space-50;
 }
 
 .references-cont {
@@ -39,15 +39,15 @@
 }
 .references a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: variables.$fs-s;
   line-height: 20px;
-  font-weight: 400;
-  color: #555555;
-  margin-top: 10px;
+  font-weight: variables.$fw-s;
+  color: variables.$color-dark-grey;
+  margin-top: variables.$space-10;
 }
 
 .footer-bootom-side {
-  margin-top: 65px;
+  margin-top: variables.$space-65;
   display: flex;
 }
 

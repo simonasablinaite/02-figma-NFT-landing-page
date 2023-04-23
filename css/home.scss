@@ -1,13 +1,15 @@
-/* BASE */
-@import "./base/reset.css";
-@import "./base/base.css";
-/* COMPONENTS */
-@use "./components/header.scss";
-@use "./components/hero.scss";
-@use "./components/upsell.scss";
-@use "./components/press.scss";
-@use "./components/showcase.scss";
-@use "./components/footer-upsell.scss";
-@use "./components/footer.scss";
+// BASE
+@use './base/reset';
+@use './base/base';
 
-@use "./base/layout.scss";
+
+// COMPONENTS
+@use "./components/header";
+@use "./components/hero";
+@use "./components/upsell";
+@use "./components/press";
+@use "./components/showcase";
+@use "./components/footer-upsell";
+@use "./components/footer";
+
+@use "./base/layout";

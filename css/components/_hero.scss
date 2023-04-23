@@ -1,8 +1,10 @@
+@use '../base/variables';
+
 .hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 0;
+  padding-right: variables.$space-0;
 }
 
 .main-text-elements-group {
@@ -10,11 +12,11 @@
 }
 
 .hero-main-title {
-  font-size: 48px;
-  font-weight: 900;
+  font-size: variables.$fs-xl;
+  font-weight: variables.$fw-xxl;
   line-height: 58px;
-  color: #111111;
-  margin: 24px 0;
+  color: variables.$color-very-dark-grey;
+  margin: variables.$space24 variables.$space-0;
 }
 
 .hero-all-image {
