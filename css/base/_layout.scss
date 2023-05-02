@@ -78,13 +78,15 @@
   }
   .footer-upsell .section-image {
     width: 30%;
+  
+      &.section-image img {
+        float: right;
+  
+      &.hero-main-title {
+        width: 70%;
+    }
   }
-  .footer-upsell .section-image img {
-    float: right;
-  }
-  .footer-upsell .hero-main-title {
-    width: 70%;
-  }
+}
   .references a {
     margin-top: variables.$space-20;
   }
