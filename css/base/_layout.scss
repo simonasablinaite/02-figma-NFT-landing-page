@@ -1,3 +1,5 @@
+@use '../base/variables';
+
 @media (min-width: 576px) {
   .container {
     width: 540px;
@@ -9,16 +11,25 @@
 @media (min-width: 768px) {
   .container {
     width: 720px;
-  }
-  .upsell .secondary-text-elements-group {
-    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    .upsell {
+      border-radius: 30px;
+  
+        &.secondary-text-elements-group {
+         margin-top: variables.$space-50;
+      }
+    }
   }
 }
 
 @media (min-width: 992px) {
   .container {
     width: 992px;
-  }
+    margin-left: auto;
+    margin-right: auto;
+  
   .navigation {
     display: flex;
   }
@@ -28,7 +39,7 @@
   .section-paragraph,
   .showcase-title,
   .copyright {
-    font-size: 20px;
+    font-size: variables.$fs-s;
   }
   .hero-half-image {
     display: none;
@@ -37,31 +48,24 @@
     display: flex;
     width: 90%;
   }
-  .upsell {
-    border-radius: 30px;
-  }
+ 
   .showcase-wrapper .subtitle,
   .showcase-wrapper .showcase-name,
   .showcase-wrapper .card-number,
   .showcase-wrapper .price-deadline {
-    font-size: 18px;
+    font-size: variables.$fs-xs;
   }
   .press-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    gap: 50px;
-    margin: 50px 0;
-  }
-  .press-wrapper .card:nth-child(4) {
+    gap: variables.$space-50;
+    margin: variables.$space-50 variables.$space-0;
+  
+  &.card:nth-child(4) {
     display: flex;
   }
-  .press-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    margin: 50px 0;
-  }
+}
   .press-wrapper .card-content {
     display: flex;
   }
@@ -73,8 +77,6 @@
     overflow: initial;
   }
   .footer-upsell .section-image {
-    /* width: 206px;
-    height: 467px; */
     width: 30%;
   }
   .footer-upsell .section-image img {
@@ -84,27 +86,30 @@
     width: 70%;
   }
   .references a {
-    margin-top: 20px;
+    margin-top: variables.$space-20;
   }
   .footer-description {
-    font-size: 20px;
+    font-size: variables.$fs-s;
   }
   .date {
     display: flex;
-    font-size: 20px;
+    font-size: variables.$fs-s;
   }
   .footer-bottom-side {
     display: flex;
     justify-content: space-between;
   }
 }
+}
 
 @media (min-width: 1200px) {
   .container {
     width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .hero-main-title {
-    font-size: 96px;
+    font-size: variables.$fs-xxxl;
     line-height: 116px;
   }
   .footer-wrapper .right-side {
@@ -113,10 +118,7 @@
   .footer-top-side {
     display: flex;
     justify-content: space-between;
-    gap: 300px;
-  }
-  .footer-wrapper .right-side {
-    display: flex;
+    gap: variables.$space-300;
   }
   .showcase {
     overflow: visible;
